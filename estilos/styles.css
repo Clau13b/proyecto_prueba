@@ -1,0 +1,30 @@
+* body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    width: 100%;
+    height: 100vh;
+
+}
+.titulo{
+    font-size: 100px;
+    color: rgba(15, 151, 151, 0.425);
+   
+}
+.videu{
+    position: absolute;
+    width:100%;
+    z-index: -1;
+    
+}
+.algo_mas{
+    width: 100%;
+    height: 200px;
+}
